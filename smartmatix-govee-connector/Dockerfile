@@ -29,15 +29,15 @@ ENTRYPOINT ["node", "src/index.js", "de.smartmatix.plugin.govee-connector", "hos
 #  Plugin-Metadaten (PFLICHT für die HCU – exakt dieses Label-Format)
 #
 #  pluginId      muss identisch mit der ENTRYPOINT-Plugin-ID sein
-#  hcuMinVersion mindestens 1.6.16 für Connect API 1.0.1
+#  hcuMinVersion mindestens 1.7.9 für Connect API 1.0.1
 #  scope         LOCAL
 # ---------------------------------------------------------------------------
 LABEL de.eq3.hmip.plugin.metadata='\
 {\
   "pluginId": "de.smartmatix.plugin.govee-connector",\
   "issuer": "Kevin Schipper",\
-  "version": "1.0.0",\
-  "hcuMinVersion": "1.6.16",\
+  "version": "1.0.1",\
+  "hcuMinVersion": "1.7.9",\
   "scope": "LOCAL",\
   "settings": [],\
   "friendlyName": {\
