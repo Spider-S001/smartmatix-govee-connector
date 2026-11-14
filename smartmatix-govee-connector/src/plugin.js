@@ -1106,7 +1106,7 @@ class Plugin {
       };
     });
 
-    // --- Backup & Restore (eine Gruppe, Dropdown-Steuerung) ---
+    // --- Backup & Restore ---
     this._addBackupTemplate(groups, properties);
 
     // --- Info ---
@@ -1178,7 +1178,7 @@ class Plugin {
     groups.backup_restore = {
       friendlyName: t(lang, 'group.backup_restore.name'),
       description,
-      order:        997,
+      order:        2,
     };
 
     if (backupActive || restoreActive) {

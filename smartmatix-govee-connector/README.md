@@ -56,7 +56,7 @@ Alle Geräte melden zusätzlich die Erreichbarkeit (`maintenance.unreach`). Prä
 | Voraussetzung | Version |
 |---|---|
 | Node.js | ≥ 18 |
-| HCU-Firmware | ≥ 1.6.16 |
+| HCU-Firmware | ≥ 1.7.9 |
 | Govee-API-Key | [beantragen](https://developer.govee.com/reference/apply-you-govee-api-key) (Govee Home App → Profil → Einstellungen → API-Key beantragen) |
 | Internetzugang der HCU | erforderlich (Govee OpenAPI ist eine Cloud-API) |
 | Entwicklermodus | aktiviert (HCUweb) |
@@ -203,8 +203,8 @@ LOG_LEVEL=debug node src/index.js de.smartmatix.plugin.govee-connector hcu1-XXXX
 ## Deployment auf der HCU
 
 ```bash
-docker buildx build --platform linux/arm64 -t smartmatix-govee-connector:1.0.0 .
-docker save smartmatix-govee-connector:1.0.0 | gzip > smartmatix-govee-connector-1.0.0.tar.gz
+docker buildx build --platform linux/arm64 -t smartmatix-govee-connector:1.0.1 .
+docker save smartmatix-govee-connector:1.0.1 | gzip > smartmatix-govee-connector-1.0.1.tar.gz
 ```
 
 HCUweb öffnen → **Plugins** → `.tar.gz`-Datei hochladen.

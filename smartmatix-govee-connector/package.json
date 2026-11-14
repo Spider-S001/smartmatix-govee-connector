@@ -1,6 +1,6 @@
 {
   "name": "smartmatix-govee-connector",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ein Plugin, um deine Govee-Geräte zur HCU hinzuzufügen.",
   "main": "src/index.js",
   "scripts": {
